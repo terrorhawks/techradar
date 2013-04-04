@@ -2,7 +2,6 @@ function init(h,w) {
 
  document.getElementById('title').text = radar_title;
 
-
  var radar = new pv.Panel()
       .width(w)
       .height(h)
