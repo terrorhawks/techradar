@@ -57,27 +57,29 @@ var radar_data = [
 {"name":"Graphite", "pc":{"r":340,"t":21},"movement":"c"},
 {"name":"Librato", "pc":{"r":340,"t":21},"movement":"c"},
 
-{"name":"Mahout", "pc":{"r":0,"t":0},"movement":"c"},
-{"name":"Weka", "pc":{"r":0,"t":0},"movement":"c"},
-{"name":"R", "pc":{"r":0,"t":0},"movement":"c"},
-{"name":"RapidMiner", "pc":{"r":0,"t":0},"movement":"c"},
-{"name":"Knime", "pc":{"r":0,"t":0},"movement":"c"},
-{"name":"Octave", "pc":{"r":0,"t":0},"movement":"c"},
-{"name":"Matlab", "pc":{"r":0,"t":0},"movement":"c"},
-{"name":"PyBrain", "pc":{"r":0,"t":0},"movement":"c"},
+{"name":"Mahout", "pc":{"r":240,"t":185},"movement":"c"},
+{"name":"Weka", "pc":{"r":340,"t":190},"movement":"c"},
+{"name":"R", "pc":{"r":340,"t":195},"movement":"c"},
+{"name":"RapidMiner", "pc":{"r":340,"t":200},"movement":"c"},
+{"name":"Knime", "pc":{"r":340,"t":205},"movement":"c"},
+{"name":"Octave", "pc":{"r":340,"t":210},"movement":"c"},
+{"name":"Matlab", "pc":{"r":340,"t":220},"movement":"c"},
+{"name":"PyBrain", "pc":{"r":340,"t":230},"movement":"c"},
 
-{"name":"OpenRefine", "pc":{"r":0,"t":0},"movement":"c"},
-{"name":"Datawrangler", "pc":{"r":0,"t":0},"movement":"c"},
-{"name":"Hadoop", "pc":{"r":0,"t":0},"movement":"c"},
-{"name":"Redshirft", "pc":{"r":0,"t":0},"movement":"c"},
-{"name":"Hive", "pc":{"r":0,"t":0},"movement":"c"},
+{"name":"OpenRefine", "pc":{"r":340,"t":275},"movement":"c"},
+{"name":"Datawrangler", "pc":{"r":340,"t":285},"movement":"c"},
+{"name":"Hadoop", "pc":{"r":240,"t":295},"movement":"c"},
+{"name":"Redshirft", "pc":{"r":340,"t":305},"movement":"c"},
+{"name":"Hive", "pc":{"r":340,"t":315},"movement":"c"},
+{"name":"Graphchi", "pc":{"r":240,"t":325},"movement":"c"},
+{"name":"Spotfire", "pc":{"r":340,"t":335},"movement":"c"},
 ];
 
 var radar_quadrants = [
 {"name":"NoSQL", "start":0, "end":20},
 {"name":"Visualisation", "start":20, "end":56},
 {"name":"Machine learning", "start":56, "end":64},
-{"name":"Data Analysis", "start":64, "end":70}
+{"name":"Data Analysis", "start":64, "end":71}
 ];
 
 var radar_arcs = [{'r':100,'name':'Adopt'},{'r':200,'name':'Trial'},{'r':300,'name':'Assess'},{'r':400,'name':'Hold'}];
